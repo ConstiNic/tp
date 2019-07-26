@@ -1,7 +1,7 @@
 let coin = document.getElementById('derecha');
 let xi = document.getElementById('valor')
 
-coin.onclick function resultado(coin,xi){
+coin.onclick function resultado(coin){
 alert("20");
     
 }
