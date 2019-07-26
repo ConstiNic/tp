@@ -1,9 +1,42 @@
-
 body{
-  color: red;
+    background-color: gainsboro;
+}
+.section{
+    text-align:left;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+   width: 570px;
 }
 
+#bottom{
+background-color: black;
+border-radius: 7px;
+}
 
-#encabezado{
-text-align:center;
+#registro{float:right;
+        text-align:left;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+   width: 700px;
+    height: 450px;
+}
+#table{
+
+   width: 700px;
+}
+#tabla_abajo{
+    width:700px;
+    height:330px;
+}
+.derecha{
+    float:right
+}
+.izquierda{
+    float:left
 }
