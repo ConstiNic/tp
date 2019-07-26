@@ -1,4 +1,4 @@
-let coin = document.getElementById('derecha');
+let coin = document.getElementById('img');
 let xi = document.getElementById('valor')
 
 coin.onclick function resultado(coin){
