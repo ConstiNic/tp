@@ -1,8 +1,8 @@
 var Euros= 49.53;
-var Dolars=44.53
+var Dolars=44.53;
+var bot;
 
-
-if (typeof botEur !== null) {
+if (typeof bot!== null) {
 /*rec1*/function Euro1(valNum) {
 
 document.getElementById("output1").innerHTML=valNum / Euros + " euros";
