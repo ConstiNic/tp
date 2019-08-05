@@ -18,6 +18,11 @@ body{
     left: 526.5px;
     
 }
+.final{position: relative;
+    top: 20px;
+    color: aliceblue;
+    text-align: center;
+}
 .texto_5{
     position: relative; 
     left: 138px;
@@ -77,6 +82,7 @@ body{
 #bottom{
 background-color: black;
 border-radius: 7px;
+height: 230px;
 }
 
 #registro{position: absolute;

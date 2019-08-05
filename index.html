@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head >
   <title>Conversor de monedas</title>
   <link href="style.css"
   rel="stylesheet">
 </head>
-<body>
+<body onload="traer()">
 <div id="registro"> 
  <span style="position: absolute; left: 3px;top: 1px;"><a href="https://twitter.com/pepsi"><img id="jpeg"  src="images.jpg" height="305px" width="665px" class="derecha" ></a></span>
     </div>
@@ -20,8 +20,13 @@
     border: 2px solid darkgray;
   width: 665px; position: absolute; left: 320px;"><form><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="derecha" ><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="izquierda" > </form>
       <h1 id="h1"><u>Conversor de divisas</u></h1>
-<h4>Monedas soportadas: pesos argentinos, euros, rupias indias y dolares americanos</h4>
+<h4>Monedas soportadas: pesos argentinos, euros, bolivares venezolanos y dolares americanos</h4>
 </span>
+
+      <form id="dol"></form>
+      <from id="eur"></from>
+      <form id="eurdolar"></form>
+      <form id="vefdolar"></form>
 </div>
 <div id="rec2" class="recuadros">
 <form>
@@ -91,30 +96,30 @@
     
     <div id="rec6" class="recuadros">
 <form>
-  <input id="valor6" type="number" placeholder="Euro" oninput="Rupia3(this.value)" onchange="Rupia3(this.value)">
+  <input id="valor6" type="number" placeholder="Euro" oninput="Vef3(this.value)" onchange="Vef3(this.value)">
    
    
     </form>
       <h4 id="texto">equivale a</h4>
-    <form><h3 id="output6">... rupia(s)</h3>
+    <form><h3 id="output6">... bolivar(es)</h3>
     </form>
 
 </div>
     <div id="rec7" class="recuadros">
 <form>
-  <input id="valor7" type="number" placeholder="Dolar" oninput="Rupia2(this.value)" onchange="Rupia2(this.value)">
+  <input id="valor7" type="number" placeholder="Dolar" oninput="Vef2(this.value)" onchange="Vef2(this.value)">
    
    
     </form>
       <h4 id="texto">equivale a</h4>
-    <form><h3 id="output7">... rupia(s)</h3>
+    <form><h3 id="output7">... bolivar(es)</h3>
     </form>
 
 </div>
     
     <div id="rec8" class="recuadros">
 <form>
-  <input id="valor8" type="number" placeholder="Rupias" oninput="Peso3(this.value)" onchange="Peso3(this.value)">
+  <input id="valor8" type="number" placeholder="Bolivar" oninput="Peso3(this.value)" onchange="Peso3(this.value)">
    
    
     </form>
@@ -125,8 +130,8 @@
 </div>
         <div id="rec9" class="recuadros" style="height: 124px;">
 <form>
-  <input id="valor9" style="width: 125px"type="number" placeholder="Rupias" oninput="Dolar3(this.value)" onchange="Dolar3(this.value)">
-    <input id="valor9_5" style="width: 125px; position: relative; left: 135px; top: -22px"  type="number" placeholder="Rupias" oninput="Euro3(this.value)" onchange="Euro3(this.value)">
+  <input id="valor9" style="width: 125px"type="number" placeholder="Bolivar" oninput="Dolar3(this.value)" onchange="Dolar3(this.value)">
+    <input id="valor9_5" style="width: 125px; position: relative; left: 135px; top: -22px"  type="number" placeholder="Bolivar" oninput="Euro3(this.value)" onchange="Euro3(this.value)">
    
     </form>
             
@@ -141,12 +146,12 @@
 </div>
         <div id="rec10" class="recuadros">
 <form>
-  <input id="valor10" type="number" placeholder="Peso" oninput="Rupia1(this.value)" onchange="Rupia1(this.value)">
+  <input id="valor10" type="number" placeholder="Peso" oninput="Vef1(this.value)" onchange="Vef1(this.value)">
    
    
     </form>
       <h4 id="texto">equivale a</h4>
-    <form><h3 id="output10">... rupia(s)</h3>
+    <form><h3 id="output10">... bolivar(es)</h3>
     </form>
 
 </div>
@@ -158,12 +163,12 @@
 <br />
     
         
-<div id="bottom" style="clear: right;">
-    <hr />
-        <br />
-    <br />
-    <br />
-    <br />
+<div id="bottom" style="clear: right; ">
+    <p class="final">Alumno: Constenla Nicolas</p>
+    <p class="final">Profesor:Santiago Trini</p>
+    <p class="final">Curso 4º 2ª</p>
+    <p class="final"><a href="https://github.com/ConstiNic/tp">Link al repositorio</a></p>
+<a href="https://www.instagram.com/nohian_/?hl=es-la"><img style="position: relative; left: 535px; top:35px; " src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" width="50px" ></a>
     </div>
 
 
