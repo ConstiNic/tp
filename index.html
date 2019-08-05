@@ -4,53 +4,95 @@
   <title>Conversor de monedas</title>
   <link href="style.css"
   rel="stylesheet">
-<script src="javascript.js" language="javascript" type="text/javascript"></script></head>
+</head>
 <body>
 
     <hr />
-<div id="registro"> 
-    <h1>Registro</h1>
-    <table border="5" id="table">
-    <tr id="tabla_arriba">
-      <td bgcolor="gainsboro">x</td>    
-        
-    </tr>
-        <tr id="tabla_abajo">
-      <td bgcolor="gainsboro">w</td>    
-        
-    </tr>
-    </table>
-    </div>
+
   <div id="encabezado" class="section">
-      
-      <h1><u>Conversor de divisas</u></h1>
+       <form><input type="image" id="img" img src="source.gif" height="70px" width="70px" class="derecha" > </form>
+      <h1 id="h1"><u>Conversor de divisas</u></h1>
 <h4>Monedas soportadas: pesos argentinos, euros y dolares americanos</h4>
 
 </div>
-
-<div id="recuadros" class="section">
+<div id="rec2" class="recuadros">
 <form>
-    <input class="valor" type="text" name="primer valor">
-    <select name="moneda">
-    <option value="0">...</option>
-    <option value="1">Dolar americano</option> 
-   <option value="2">Peso argentino</option> 
-   <option value="3">Euro</option>
-    </select></form>
-    <form><input type="image" id="img" img src="source.gif" height="70px" width="70px" class="derecha" > </form>
-    <h3>equivale a </h3>
+  <input id="valorx" type="number" placeholder="Pesos" oninput="Euro1(this.value)" onchange="Euro1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output1">... euro(s)</h3>
+    </form>
 
-    <form><input class="valor" type="text" name="primer valor">
-    <select name="">
-    <option value="0">...</option>
-    <option value="1">Dolar americano</option> 
-   <option value="2">Peso argentino</option> 
-   <option value="3">Euro</option>
-    </select></form>
-    
 </div>
+<div id="rec2_5" class="recuadros">
+<form>
+  <input id="valora" type="number" placeholder="Pesos" oninput="Dolar1(this.value)" onchange="Dolar1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output3">... dolar(es)</h3>
+    </form>
+
+</div>
+<div id="rec3" class="recuadros">
+<form>
+    <input id="valor3" type="number" placeholder="Dolar" oninput="Euro2(this.value)" onchange="Euro2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output2">... euro(s)</h3>
+    </form>
+</div>
+        <div id="rec3_5" class="recuadros">
+<form>
+    <input id="valor3_5" type="number" placeholder="Euro" oninput="Dolar2(this.value)" onchange="Dolar2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output3_5">... dolar(es)</h3>
+    </form>
+    </div>
+    
+<div id="rec4" class="recuadros">
+<form>
+    <input id="valor4" type="number" placeholder="Euro" oninput="Peso1(this.value)" onchange="Peso1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output4">... peso(s)</h3>
+    </form>
+    </div>
+    
+        <div id="rec5" class="recuadros">
+<form>
+    <input id="valor5" type="number" placeholder="Dolar" oninput="Peso2(this.value)" onchange="Peso2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output5">... peso(s)</h3>
+    </form>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 <br />
+    
+        
 <div id="bottom" style="clear: right;">
     <hr />
         <br />
@@ -62,7 +104,6 @@
 
 
 
-
-
+<script src="javascript.js" language="javascript" type="text/javascript"></script>
 
 </body>

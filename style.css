@@ -8,9 +8,34 @@ body{
     margin-bottom: 5px;
     border-radius: 10px;
     border: 2px solid darkgray;
-   width: 570px;
+  width: 565px;
+    position: relative
+}
+#h1{
+    width: 300px;
+}
+#3_5{float: right
+    position: fixed;
 }
 
+#rec2{
+    float: right;
+}
+.recuadros {
+    background-color: #fff;
+    padding: 17px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    width: 255px;
+}
+#rec4{
+    float: right;
+}
+#texto{
+    text-align: left;
+    width: 180px;
+}
 #bottom{
 background-color: black;
 border-radius: 7px;
