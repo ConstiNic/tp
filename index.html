@@ -6,14 +6,22 @@
   rel="stylesheet">
 </head>
 <body>
-
+<div id="registro"> 
+ <span style="position: absolute; left: 3px;top: 2px;"><a href="https://twitter.com/pepsi"><img id="jpeg"  src="images.jpg" height="305px" width="590px" class="derecha" ></a></span>
+    </div>
     <hr />
 
   <div id="encabezado" class="section">
-       <form><input type="image" id="img" img src="source.gif" height="70px" width="70px" class="derecha" > </form>
+       <span style="text-align:left;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+  width: 565px; position: absolute; left: 370px;"><form><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="derecha" > </form>
       <h1 id="h1"><u>Conversor de divisas</u></h1>
 <h4>Monedas soportadas: pesos argentinos, euros y dolares americanos</h4>
-
+</span>
 </div>
 <div id="rec2" class="recuadros">
 <form>
@@ -69,7 +77,7 @@
     </form>
     </div>
     
-        <div id="rec5" class="recuadros">
+        <div id="rec5">
 <form>
     <input id="valor5" type="number" placeholder="Dolar" oninput="Peso2(this.value)" onchange="Peso2(this.value)">
    

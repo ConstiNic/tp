@@ -1,25 +1,18 @@
 body{
     background-color: gainsboro;
-}
-.section{
-    text-align:left;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    border: 2px solid darkgray;
-  width: 565px;
-    position: relative
+}  
+    
 }
 #h1{
     width: 300px;
 }
-#3_5{float: right
-    position: fixed;
-}
+#3_5{float: right;
+        }
 
 #rec2{
     float: right;
+    position: absolute;
+    left: 1048px;
 }
 .recuadros {
     background-color: #fff;
@@ -31,6 +24,22 @@ body{
 }
 #rec4{
     float: right;
+    position: absolute;
+    left: 1048px;
+    top: 348px;
+}
+
+
+
+#rec5{    background-color: #fff;
+    padding: 17px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    width: 255px;
+        position: absolute;
+    left: 1048px;
+    top: 182px;
 }
 #texto{
     text-align: left;
@@ -41,15 +50,16 @@ background-color: black;
 border-radius: 7px;
 }
 
-#registro{float:right;
+#registro{position: absolute;
+    top:200px;
+    left: 370px;
         text-align:left;
     background-color: #fff;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 10px;
+    padding: 5px;
+    
     border: 2px solid darkgray;
-   width: 700px;
-    height: 450px;
+   width: 585px;
+    height: 300px;
 }
 #table{
 
