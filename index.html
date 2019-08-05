@@ -7,20 +7,20 @@
 </head>
 <body>
 <div id="registro"> 
- <span style="position: absolute; left: 3px;top: 2px;"><a href="https://twitter.com/pepsi"><img id="jpeg"  src="images.jpg" height="305px" width="590px" class="derecha" ></a></span>
+ <span style="position: absolute; left: 3px;top: 1px;"><a href="https://twitter.com/pepsi"><img id="jpeg"  src="images.jpg" height="305px" width="665px" class="derecha" ></a></span>
     </div>
     <hr />
 
   <div id="encabezado" class="section">
-       <span style="text-align:left;
+       <span style="text-align:center;
     background-color: #fff;
     padding: 20px;
     margin-bottom: 5px;
     border-radius: 10px;
     border: 2px solid darkgray;
-  width: 565px; position: absolute; left: 370px;"><form><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="derecha" > </form>
+  width: 665px; position: absolute; left: 320px;"><form><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="derecha" ><input type="image" id="img"  src="source.gif" height="70px" width="70px" class="izquierda" > </form>
       <h1 id="h1"><u>Conversor de divisas</u></h1>
-<h4>Monedas soportadas: pesos argentinos, euros y dolares americanos</h4>
+<h4>Monedas soportadas: pesos argentinos, euros, rupias indias y dolares americanos</h4>
 </span>
 </div>
 <div id="rec2" class="recuadros">
@@ -89,10 +89,67 @@
     </div>
     
     
+    <div id="rec6" class="recuadros">
+<form>
+  <input id="valor6" type="number" placeholder="Euro" oninput="Rupia3(this.value)" onchange="Rupia3(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output6">... rupia(s)</h3>
+    </form>
+
+</div>
+    <div id="rec7" class="recuadros">
+<form>
+  <input id="valor7" type="number" placeholder="Dolar" oninput="Rupia2(this.value)" onchange="Rupia2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output7">... rupia(s)</h3>
+    </form>
+
+</div>
     
-    
-    
-    
+    <div id="rec8" class="recuadros">
+<form>
+  <input id="valor8" type="number" placeholder="Rupias" oninput="Peso3(this.value)" onchange="Peso3(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output8">... peso(s)</h3>
+    </form>
+
+</div>
+        <div id="rec9" class="recuadros" style="height: 124px;">
+<form>
+  <input id="valor9" style="width: 125px"type="number" placeholder="Rupias" oninput="Dolar3(this.value)" onchange="Dolar3(this.value)">
+    <input id="valor9_5" style="width: 125px; position: relative; left: 135px; top: -22px"  type="number" placeholder="Rupias" oninput="Euro3(this.value)" onchange="Euro3(this.value)">
+   
+    </form>
+            
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output9_5">... dolar(es)</h3>
+    </form> 
+            <div>
+            <h4 class="texto_5">equivale a</h4>
+    <form><h3 id="output9" class="texto_5">... euro(s)</h3>
+    </form>
+    </div>
+</div>
+        <div id="rec10" class="recuadros">
+<form>
+  <input id="valor10" type="number" placeholder="Peso" oninput="Rupia1(this.value)" onchange="Rupia1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output10">... rupia(s)</h3>
+    </form>
+
+</div>
     
     
     

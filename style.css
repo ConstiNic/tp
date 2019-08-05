@@ -8,6 +8,35 @@ body{
 }
 #3_5{float: right;
         }
+#rec6{
+    position: absolute;
+    left:826.5px;   
+    width: 170px;
+}
+#rec9{
+    position: absolute;
+    left: 526.5px;
+    
+}
+.texto_5{
+    position: relative; 
+    left: 138px;
+    top: -83px;
+}
+#rec7{
+    position: absolute;
+    left: 314.5px;
+    top: 518px;
+    width: 170px;
+}
+
+#rec8{
+    
+    position: absolute;
+    left: 1048px;
+}
+
+
 
 #rec2{
     float: right;
@@ -52,14 +81,13 @@ border-radius: 7px;
 
 #registro{position: absolute;
     top:200px;
-    left: 370px;
+    left: 340px;
         text-align:left;
     background-color: #fff;
-    padding: 5px;
-    
+    padding: 5px
     border: 2px solid darkgray;
-   width: 585px;
-    height: 300px;
+   width: 670px;
+    height: 310px;
 }
 #table{
 
